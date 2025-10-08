@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ElectionResults Date="2016-11-08" StatePostal="DC" Office="P" Epoch="1478563200" RaceTypeID="G" PercentIn="100.0" RaceCallStatus="Called">
+  <ReportingUnit Name="District of Columbia" FIPS="11001" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="11553"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="260223"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+</ElectionResults>

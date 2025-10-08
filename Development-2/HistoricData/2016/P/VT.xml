@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ElectionResults Date="2016-11-08" StatePostal="VT" Office="P" Epoch="1478563200" RaceTypeID="G" PercentIn="100.0" RaceCallStatus="Called">
+  <ReportingUnit Name="Addison County" FIPS="50001" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="5297"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="11217"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Bennington County" FIPS="50003" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="5925"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="9539"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Caledonia County" FIPS="50005" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="5533"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="6445"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Chittenden County" FIPS="50007" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="18298"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="54463"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Essex County" FIPS="50009" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="1506"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="1019"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Franklin County" FIPS="50011" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="8752"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="9351"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Grand Isle County" FIPS="50013" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="1487"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="2094"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Lamoille County" FIPS="50015" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="3570"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="7241"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Orange County" FIPS="50017" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="4997"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="7522"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Orleans County" FIPS="50019" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="5158"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="5181"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Rutland County" FIPS="50021" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="12471"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="13629"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Washington County" FIPS="50023" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="7993"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="18594"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Windham County" FIPS="50025" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="5462"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="14340"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Windsor County" FIPS="50027" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="8604"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="17544"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+</ElectionResults>

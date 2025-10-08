@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ElectionResults Date="2016-11-08" StatePostal="CA" Office="P" Epoch="1478563200" RaceTypeID="G" PercentIn="100.0" RaceCallStatus="Called">
+  <ReportingUnit Name="Alameda County" FIPS="06001" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="91189"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="486351"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Alpine County" FIPS="06003" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="211"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="318"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Amador County" FIPS="06005" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="10239"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="5904"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Butte County" FIPS="06007" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="42193"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="38676"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Calaveras County" FIPS="06009" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="13072"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="7738"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Colusa County" FIPS="06011" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="3551"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="2659"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Contra Costa County" FIPS="06013" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="105819"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="286658"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Del Norte County" FIPS="06015" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="5134"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="3485"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="El Dorado County" FIPS="06017" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="47633"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="35243"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Fresno County" FIPS="06019" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="113949"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="123660"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Glenn County" FIPS="06021" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="5788"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="3065"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Humboldt County" FIPS="06023" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="10883"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="19596"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Imperial County" FIPS="06025" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="11295"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="28467"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Inyo County" FIPS="06027" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="4248"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="3155"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Kern County" FIPS="06029" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="119164"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="86481"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Kings County" FIPS="06031" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="17446"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="12902"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Lake County" FIPS="06033" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="5752"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="6240"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Lassen County" FIPS="06035" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="7574"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="2224"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Los Angeles County" FIPS="06037" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="620285"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="1893770"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Madera County" FIPS="06039" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="19221"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="13283"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Marin County" FIPS="06041" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="17531"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="86650"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Mariposa County" FIPS="06043" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="5185"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="3122"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Mendocino County" FIPS="06045" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="3571"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="6905"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Merced County" FIPS="06047" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="18486"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="21856"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Modoc County" FIPS="06049" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="2413"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="798"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Mono County" FIPS="06051" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="2080"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="2696"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Monterey County" FIPS="06053" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="26378"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="64733"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Napa County" FIPS="06055" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="11946"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="26161"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Nevada County" FIPS="06057" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="14686"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="16199"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Orange County" FIPS="06059" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="472669"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="556544"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Placer County" FIPS="06061" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="78977"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="61969"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Plumas County" FIPS="06063" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="5079"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="3224"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Riverside County" FIPS="06065" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="309514"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="339145"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Sacramento County" FIPS="06067" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="163024"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="273768"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="San Benito County" FIPS="06069" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="6471"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="10050"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="San Bernardino County" FIPS="06071" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="253962"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="312517"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="San Diego County" FIPS="06073" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="386807"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="567243"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="San Francisco County" FIPS="06075" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="34493"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="312443"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="San Joaquin County" FIPS="06077" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="68316"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="89791"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="San Luis Obispo County" FIPS="06079" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="52672"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="63001"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="San Mateo County" FIPS="06081" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="53731"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="219580"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Santa Barbara County" FIPS="06083" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="53740"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="100120"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Santa Clara County" FIPS="06085" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="137452"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="483472"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Santa Cruz County" FIPS="06087" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="20158"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="85185"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Shasta County" FIPS="06089" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="47587"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="20471"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Sierra County" FIPS="06091" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="1048"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="601"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Siskiyou County" FIPS="06093" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="11212"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="7106"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Solano County" FIPS="06095" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="49595"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="97159"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Sonoma County" FIPS="06097" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="37421"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="116027"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Stanislaus County" FIPS="06099" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="72960"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="73939"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Sutter County" FIPS="06101" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="16780"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="11831"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Tehama County" FIPS="06103" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="14981"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="6571"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Trinity County" FIPS="06105" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="2409"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="1876"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Tulare County" FIPS="06107" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="50488"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="39099"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Tuolumne County" FIPS="06109" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="13486"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="8580"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Ventura County" FIPS="06111" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="118764"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="170489"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Yolo County" FIPS="06113" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="13178"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="34460"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Yuba County" FIPS="06115" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="12313"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="7234"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+</ElectionResults>

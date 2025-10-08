@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ElectionResults Date="2016-11-08" StatePostal="NJ" Office="P" Epoch="1478563200" RaceTypeID="G" PercentIn="100.0" RaceCallStatus="Called">
+  <ReportingUnit Name="Atlantic County" FIPS="34001" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="47882"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="54472"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Bergen County" FIPS="34003" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="163220"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="209251"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Burlington County" FIPS="34005" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="79539"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="108361"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Camden County" FIPS="34007" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="71020"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="142375"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Cape May County" FIPS="34009" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="28237"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="18626"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Cumberland County" FIPS="34011" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="24213"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="27045"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Essex County" FIPS="34013" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="62059"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="231031"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Gloucester County" FIPS="34015" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="66949"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="66355"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Hudson County" FIPS="34017" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="45615"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="149980"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Hunterdon County" FIPS="34019" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="38565"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="28797"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Mercer County" FIPS="34021" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="42604"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="93721"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Middlesex County" FIPS="34023" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="108981"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="164887"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Monmouth County" FIPS="34025" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="165305"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="135825"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Morris County" FIPS="34027" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="125376"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="114437"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Ocean County" FIPS="34029" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="170103"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="81845"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Passaic County" FIPS="34031" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="71488"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="112608"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Salem County" FIPS="34033" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="16256"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="11766"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Somerset County" FIPS="34035" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="64640"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="83839"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Sussex County" FIPS="34037" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="46486"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="24132"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Union County" FIPS="34039" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="67582"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="145412"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Warren County" FIPS="34041" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="29393"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="16991"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+</ElectionResults>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ElectionResults Date="2016-11-08" StatePostal="NH" Office="P" Epoch="1478563200" RaceTypeID="G" PercentIn="100.0" RaceCallStatus="Called">
+  <ReportingUnit Name="Belknap County" FIPS="33001" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="19315"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="13517"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Carroll County" FIPS="33003" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="14635"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="12987"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Cheshire County" FIPS="33005" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="16876"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="22064"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Coos County" FIPS="33007" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="7951"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="6558"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Grafton County" FIPS="33009" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="19010"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="28510"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Hillsborough County" FIPS="33011" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="100013"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="99589"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Merrimack County" FIPS="33013" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="37674"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="40198"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Rockingham County" FIPS="33015" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="90447"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="79994"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Strafford County" FIPS="33017" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="29072"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="34894"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Sullivan County" FIPS="33019" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="10796"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="10210"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+</ElectionResults>

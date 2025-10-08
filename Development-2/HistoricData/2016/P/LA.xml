@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ElectionResults Date="2016-11-08" StatePostal="LA" Office="P" Epoch="1478563200" RaceTypeID="G" PercentIn="100.0" RaceCallStatus="Called">
+  <ReportingUnit Name="Acadia Parish" FIPS="22001" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="21159"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="5638"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Allen Parish" FIPS="22003" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="6867"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="2106"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Ascension Parish" FIPS="22005" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="36135"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="16471"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Assumption Parish" FIPS="22007" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="6714"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="3931"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Avoyelles Parish" FIPS="22009" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="11163"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="5032"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Beauregard Parish" FIPS="22011" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="12238"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="2393"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Bienville Parish" FIPS="22013" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="3756"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="3129"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Bossier Parish" FIPS="22015" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="35451"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="12638"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Caddo Parish" FIPS="22017" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="48977"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="53448"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Calcasieu Parish" FIPS="22019" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="54182"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="26293"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Caldwell Parish" FIPS="22021" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="3822"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="788"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Cameron Parish" FIPS="22023" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="3256"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="323"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Catahoula Parish" FIPS="22025" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="3479"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="1322"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Claiborne Parish" FIPS="22027" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="3585"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="2717"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Concordia Parish" FIPS="22029" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="5474"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="3272"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="De Soto Parish" FIPS="22031" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="8067"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="5163"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="East Baton Rouge Parish" FIPS="22033" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="84620"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="102711"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="East Carroll Parish" FIPS="22035" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="1059"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="1838"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="East Feliciana Parish" FIPS="22037" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="5569"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="4235"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Evangeline Parish" FIPS="22039" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="10357"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="4208"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Franklin Parish" FIPS="22041" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="6514"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="2506"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Grant Parish" FIPS="22043" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="7406"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="1181"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Iberia Parish" FIPS="22045" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="20903"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="10698"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Iberville Parish" FIPS="22047" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="7320"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="8324"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Jackson Parish" FIPS="22049" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="5169"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="2139"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Jefferson Parish" FIPS="22051" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="100292"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="73540"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Jefferson Davis Parish" FIPS="22053" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="10775"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="3080"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Lafayette Parish" FIPS="22055" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="68191"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="32726"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Lafourche Parish" FIPS="22057" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="31958"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="8423"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="La Salle Parish" FIPS="22059" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="5835"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="605"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Lincoln Parish" FIPS="22061" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="10761"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="7102"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Livingston Parish" FIPS="22063" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="48797"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="6950"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Madison Parish" FIPS="22065" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="1927"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="2744"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Morehouse Parish" FIPS="22067" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="6502"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="5155"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Natchitoches Parish" FIPS="22069" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="8965"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="7143"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Orleans Parish" FIPS="22071" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="24267"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="133833"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Ouachita Parish" FIPS="22073" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="41712"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="24420"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Plaquemines Parish" FIPS="22075" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="6900"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="3347"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Pointe Coupee Parish" FIPS="22077" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="6789"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="4764"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Rapides Parish" FIPS="22079" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="36814"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="18318"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Red River Parish" FIPS="22081" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="2391"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="1938"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Richland Parish" FIPS="22083" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="6286"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="3157"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Sabine Parish" FIPS="22085" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="7877"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="1703"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="St. Bernard Parish" FIPS="22087" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="10232"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="4957"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="St. Charles Parish" FIPS="22089" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="16620"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="8558"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="St. Helena Parish" FIPS="22091" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="2497"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="3353"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="St. James Parish" FIPS="22093" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="5456"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="6418"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="St. John the Baptist Parish" FIPS="22095" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="7569"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="12658"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="St. Landry Parish" FIPS="22097" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="21966"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="17208"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="St. Martin Parish" FIPS="22099" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="16872"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="8266"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="St. Mary Parish" FIPS="22101" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="14353"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="8050"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="St. Tammany Parish" FIPS="22103" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="90914"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="27716"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Tangipahoa Parish" FIPS="22105" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="33933"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="16869"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Tensas Parish" FIPS="22107" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="1180"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="1329"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Terrebonne Parish" FIPS="22109" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="31900"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="10664"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Union Parish" FIPS="22111" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="7972"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="2691"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Vermilion Parish" FIPS="22113" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="19807"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="4745"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Vernon Parish" FIPS="22115" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="13471"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="2665"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Washington Parish" FIPS="22117" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="12552"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="5690"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Webster Parish" FIPS="22119" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="11538"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="6259"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="West Baton Rouge Parish" FIPS="22121" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="6926"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="5382"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="West Carroll Parish" FIPS="22123" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="3970"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="715"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="West Feliciana Parish" FIPS="22125" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="3390"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="2247"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Winn Parish" FIPS="22127" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="4605"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="1643"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+</ElectionResults>

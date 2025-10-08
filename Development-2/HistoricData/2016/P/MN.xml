@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ElectionResults Date="2016-11-08" StatePostal="MN" Office="P" Epoch="1478563200" RaceTypeID="G" PercentIn="100.0" RaceCallStatus="Called">
+  <ReportingUnit Name="Aitkin County" FIPS="27001" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="5516"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="3134"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Anoka County" FIPS="27003" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="93341"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="75499"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Becker County" FIPS="27005" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="10880"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="5208"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Beltrami County" FIPS="27007" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="10783"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="8688"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Benton County" FIPS="27009" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="12872"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="5640"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Big Stone County" FIPS="27011" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="1607"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="921"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Blue Earth County" FIPS="27013" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="15667"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="14428"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Brown County" FIPS="27015" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="8708"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="3763"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Carlton County" FIPS="27017" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="8160"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="8460"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Carver County" FIPS="27019" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="29057"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="21508"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Cass County" FIPS="27021" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="9982"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="4949"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Chippewa County" FIPS="27023" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="3764"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="1978"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Chisago County" FIPS="27025" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="18441"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="9279"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Clay County" FIPS="27027" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="13549"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="12974"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Clearwater County" FIPS="27029" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="2925"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="1100"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Cook County" FIPS="27031" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="1156"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="1912"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Cottonwood County" FIPS="27033" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="3679"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="1678"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Crow Wing County" FIPS="27035" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="22287"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="10982"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Dakota County" FIPS="27037" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="99624"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="110251"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Dodge County" FIPS="27039" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="6527"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="3102"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Douglas County" FIPS="27041" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="13966"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="6227"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Faribault County" FIPS="27043" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="4659"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="2153"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Fillmore County" FIPS="27045" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="6271"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="3872"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Freeborn County" FIPS="27047" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="8808"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="6041"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Goodhue County" FIPS="27049" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="14041"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="9446"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Grant County" FIPS="27051" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="2063"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="1104"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Hennepin County" FIPS="27053" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="191768"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="429283"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Houston County" FIPS="27055" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="5616"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="4145"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Hubbard County" FIPS="27057" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="7269"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="3432"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Isanti County" FIPS="27059" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="13635"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="5656"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Itasca County" FIPS="27061" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="12920"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="9015"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Jackson County" FIPS="27063" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="3609"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="1492"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Kanabec County" FIPS="27065" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="5230"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="2327"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Kandiyohi County" FIPS="27067" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="12785"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="7266"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Kittson County" FIPS="27069" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="1349"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="823"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Koochiching County" FIPS="27071" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="3569"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="2306"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Lac qui Parle County" FIPS="27073" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="2294"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="1301"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Lake County" FIPS="27075" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="2932"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="3077"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Lake of the Woods County" FIPS="27077" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="1540"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="553"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Le Sueur County" FIPS="27079" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="9182"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="4623"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Lincoln County" FIPS="27081" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="1930"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="860"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Lyon County" FIPS="27083" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="7256"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="3825"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Mahnomen County" FIPS="27087" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="991"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="930"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Marshall County" FIPS="27089" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="3208"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="1225"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Martin County" FIPS="27091" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="7062"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="2733"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="McLeod County" FIPS="27085" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="12155"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="4978"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Meeker County" FIPS="27093" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="8103"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="3192"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Mille Lacs County" FIPS="27095" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="8340"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="3709"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Morrison County" FIPS="27097" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="12925"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="3637"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Mower County" FIPS="27099" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="8826"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="7444"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Murray County" FIPS="27101" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="2974"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="1295"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Nicollet County" FIPS="27103" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="8436"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="7886"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Nobles County" FIPS="27105" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="5299"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="2733"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Norman County" FIPS="27107" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="1699"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="1264"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Olmsted County" FIPS="27109" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="35668"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="36266"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Otter Tail County" FIPS="27111" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="20939"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="9339"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Pennington County" FIPS="27113" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="4000"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="2146"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Pine County" FIPS="27115" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="8191"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="4580"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Pipestone County" FIPS="27117" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="3338"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="1127"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Polk County" FIPS="27119" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="8979"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="4712"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Pope County" FIPS="27121" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="3793"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="2106"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Ramsey County" FIPS="27123" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="70778"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="176929"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Red Lake County" FIPS="27125" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="1141"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="540"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Redwood County" FIPS="27127" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="5137"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="1887"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Renville County" FIPS="27129" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="4890"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="2117"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Rice County" FIPS="27131" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="15429"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="14437"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Rock County" FIPS="27133" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="3091"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="1373"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Roseau County" FIPS="27135" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="5451"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="1856"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Scott County" FIPS="27139" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="39948"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="28502"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Sherburne County" FIPS="27141" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="31049"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="13299"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Sibley County" FIPS="27143" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="5193"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="1954"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="St. Louis County" FIPS="27137" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="44631"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="57769"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Stearns County" FIPS="27145" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="47618"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="25575"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Steele County" FIPS="27147" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="11198"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="6239"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Stevens County" FIPS="27149" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="2800"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="2116"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Swift County" FIPS="27151" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="2962"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="1679"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Todd County" FIPS="27153" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="8485"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="2783"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Traverse County" FIPS="27155" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="1050"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="631"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Wabasha County" FIPS="27157" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="6989"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="3866"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Wadena County" FIPS="27159" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="4837"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="1684"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Waseca County" FIPS="27161" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="5967"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="2838"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Washington County" FIPS="27163" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="64429"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="67086"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Watonwan County" FIPS="27165" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="2768"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="1814"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Wilkin County" FIPS="27167" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="2129"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="893"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Winona County" FIPS="27169" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="12122"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="11366"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Wright County" FIPS="27171" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="43274"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="20336"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Yellow Medicine County" FIPS="27173" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="3382"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="1524"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+</ElectionResults>

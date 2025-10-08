@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ElectionResults Date="2016-11-08" StatePostal="AK" Office="P" Epoch="1478563200" RaceTypeID="G" PercentIn="100.0" RaceCallStatus="Called">
+  <ReportingUnit Name="Alaska" FIPS="02013" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="130413"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="93003"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Alaska" FIPS="02016" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="130413"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="93003"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Alaska" FIPS="02020" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="130413"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="93003"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Alaska" FIPS="02050" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="130413"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="93003"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Alaska" FIPS="02060" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="130413"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="93003"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Alaska" FIPS="02068" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="130413"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="93003"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Alaska" FIPS="02070" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="130413"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="93003"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Alaska" FIPS="02090" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="130413"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="93003"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Alaska" FIPS="02100" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="130413"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="93003"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Alaska" FIPS="02105" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="130413"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="93003"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Alaska" FIPS="02110" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="130413"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="93003"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Alaska" FIPS="02122" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="130413"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="93003"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Alaska" FIPS="02130" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="130413"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="93003"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Alaska" FIPS="02150" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="130413"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="93003"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Alaska" FIPS="02164" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="130413"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="93003"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Alaska" FIPS="02170" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="130413"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="93003"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Alaska" FIPS="02180" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="130413"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="93003"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Alaska" FIPS="02185" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="130413"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="93003"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Alaska" FIPS="02188" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="130413"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="93003"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Alaska" FIPS="02195" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="130413"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="93003"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Alaska" FIPS="02198" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="130413"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="93003"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Alaska" FIPS="02220" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="130413"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="93003"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Alaska" FIPS="02230" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="130413"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="93003"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Alaska" FIPS="02240" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="130413"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="93003"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Alaska" FIPS="02261" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="130413"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="93003"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Alaska" FIPS="02270" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="130413"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="93003"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Alaska" FIPS="02275" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="130413"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="93003"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Alaska" FIPS="02282" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="130413"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="93003"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Alaska" FIPS="02290" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="130413"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="93003"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+</ElectionResults>

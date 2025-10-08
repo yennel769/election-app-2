@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ElectionResults Date="2016-11-08" StatePostal="CT" Office="P" Epoch="1478563200" RaceTypeID="G" PercentIn="100.0" RaceCallStatus="Called">
+  <ReportingUnit Name="Fairfield County" FIPS="09001" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="155457"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="238723"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Hartford County" FIPS="09003" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="147912"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="233789"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Litchfield County" FIPS="09005" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="53376"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="39836"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Middlesex County" FIPS="09007" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="38847"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="45306"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="New Haven County" FIPS="09009" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="158373"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="203601"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="New London County" FIPS="09011" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="54574"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="62951"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Tolland County" FIPS="09013" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="33989"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="38450"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Windham County" FIPS="09015" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="25738"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="21776"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+</ElectionResults>

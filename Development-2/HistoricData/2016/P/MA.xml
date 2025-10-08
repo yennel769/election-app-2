@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ElectionResults Date="2016-11-08" StatePostal="MA" Office="P" Epoch="1478563200" RaceTypeID="G" PercentIn="100.0" RaceCallStatus="Called">
+  <ReportingUnit Name="Barnstable County" FIPS="25001" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="53842"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="71632"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Berkshire County" FIPS="25003" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="16799"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="43540"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Bristol County" FIPS="25005" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="104775"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="127619"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Dukes County" FIPS="25007" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="2474"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="8338"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Essex County" FIPS="25009" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="135405"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="220027"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Franklin County" FIPS="25011" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="10327"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="24369"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Hampden County" FIPS="25013" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="78230"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="110313"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Hampshire County" FIPS="25015" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="22089"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="54572"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Middlesex County" FIPS="25017" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="216163"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="508919"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Nantucket County" FIPS="25019" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="1892"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="4144"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Norfolk County" FIPS="25021" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="119171"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="219129"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Plymouth County" FIPS="25023" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="114722"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="133828"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Suffolk County" FIPS="25025" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="50042"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="241212"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+  <ReportingUnit Name="Worcester County" FIPS="25027" PercentIn="100.0">
+    <Candidate First="Donald" Last="Trump" Party="REP" VoteCount="157138"/>
+    <Candidate First="Hillary" Last="Clinton" Party="DEM" VoteCount="197126"/>
+    <Candidate First="Robert" Last="Kennedy" Party="IND" VoteCount="0"/>
+  </ReportingUnit>
+</ElectionResults>
