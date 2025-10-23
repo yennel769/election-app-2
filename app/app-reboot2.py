@@ -37,7 +37,7 @@ def log(*args, **kwargs):
 
 # ---------------- Tunables ----------------
 PRIMARY             = False
-PORT                = int(os.getenv("HUB_PORT", "7051"))
+PORT                = int(os.getenv("HUB_PORT", "7052"))
 
 # Ensure Gunicorn won't inherit any pre-set file-logging args
 os.environ.pop("GUNICORN_CMD_ARGS", None)

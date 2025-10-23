@@ -6,7 +6,7 @@ set -euo pipefail
 cd "$(dirname "$0")" || exit 1
 
 # Env for rebooter2
-export HUB_PORT=7051
+export HUB_PORT=7052
 export R2_HEALTH_PORT=7049
 export R1_HEALTH_URL="http://127.0.0.1:7050/health"
 # Give primary first crack at hub restarts:

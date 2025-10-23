@@ -44,8 +44,12 @@ def _start_hub_once():
 
 # NEW (works on Flask 3+, falls back on older Flask)
 def _kick_hub_for_gunicorn():
-    # UI app: do NOT start a poller; just load the snapshot into memory
-    _snapshot_load()
+    # If hub mode, start poller; otherwise, load snapshot for serve-only
+    if HUB_MODE:
+        _start_hub_once()
+    else:
+        _snapshot_load()
+
 
 
 # Try to start once when the worker begins serving (Flask 3+)
@@ -229,10 +233,10 @@ def interpret_race_type(race_type: str) -> dict:
 
 # ---------------- Tunables (env) ----------------
 # Statewide offices (P/S/G) endpoint:
-BASE_URL_E    = os.getenv("BASE_URL_E", os.getenv("BASE_URL", "https://11111111111111.com"))
+BASE_URL_E    = os.getenv("BASE_URL_E", os.getenv("BASE_URL", "http://localhost:5037/v2/elections"))
 # BASE_URL_E    = os.getenv("BASE_URL_E", os.getenv("BASE_URL", "http://127.0.0.1:15037/v2/elections"))
 # House districts endpoint:
-BASE_URL_D    = os.getenv("BASE_URL_D", "https://11111111111111.com")
+BASE_URL_D    = os.getenv("BASE_URL_D", "http://localhost:5037/v2/districts")
 # BASE_URL_D    = os.getenv("BASE_URL_D", "http://127.0.0.1:15037/v2/districts")
 
 # ---------------- Tunables (env) ----------------
@@ -244,16 +248,17 @@ BASE_URL_D    = os.getenv("BASE_URL_D", "https://11111111111111.com")
 LEVEL_PARAM = os.getenv("LEVEL_PARAM", "ru")
 
 
-PRIMARY_DATE  = os.getenv("PRIMARY_DATE", "2026-02-15")
-GENERAL_DATE  = os.getenv("GENERAL_DATE", "2025-11-04")  # ← change to 2025-11-04
+PRIMARY_DATE  = os.getenv("PRIMARY_DATE", "2025-11-04")
+GENERAL_DATE  = os.getenv("GENERAL_DATE", "2025-11-04")
 
-HUB_MODE = os.getenv("HUB_MODE", "0").strip().lower() in ("1","true","yes","y","on")
+# Don’t overwrite the env from inside the app; just read it.
+HUB_MODE = os.getenv("HUB_MODE", "0").strip().lower() in ("1","true","yes","on")
 
-# HUB_MODE      = os.getenv("HUB_MODE", "0") in ("1","true","True","YES","yes")
+
 
 
 # Which combos to poll (comma-separated). Add others like "Lib,Grn,NP,APP,RET" if desired.
-OFFICES       = [x.strip().upper() for x in os.getenv("OFFICES", "G").split(",") if x.strip()]
+OFFICES       = [x.strip().upper() for x in os.getenv("OFFICES", "G,M").split(",") if x.strip()]
 RACE_TYPES    = [x.strip() for x in os.getenv("RACE_TYPES", "G").split(",") if x.strip()]
 
 # Pace the hub to suit your infra:
@@ -292,7 +297,6 @@ SKIP_STATES = {
     'SD','TN','TX','UT','VT','WA','WI','WV','WY','DC','PR'
 }
 
-_snapshot_mtime = 0  # last loaded file mtime
 
 @app.route("/favicons/<path:filename>")
 def serve_favicons(filename):
@@ -308,7 +312,7 @@ SCRIPTS_DIR = os.path.abspath(os.path.join(ROOT_DIR, "..", "scripts"))
 @app.route("/scripts/<path:filename>")
 def serve_scripts(filename):
     return send_from_directory(SCRIPTS_DIR, filename)
-    
+
 # Serve ../HistoricData as /HistoricData
 HISTORIC_DIR = os.path.abspath(os.path.join(ROOT_DIR, "..", "HistoricData"))
 
@@ -345,6 +349,10 @@ ALL_STATES = [
     "LA","MA","MD","ME","MI","MN","MO","MS","MT","NC","ND","NE","NH","NJ","NM","NV","NY",
     "OH","OK","OR","PA","RI","SC","SD","TN","TX","UT","VA","VT","WA","WI","WV","WY","DC","PR"
 ]
+
+# Only NY runs the 2025 mayoral (M) race for our app
+MAYOR_2025_STATES = ["NY"]
+
 
 # Add this small USPS → statefp map near ALL_STATES (once)
 USPS_TO_STATEFP = {
@@ -385,29 +393,35 @@ def log(msg, lvl="INFO"):
 
 # -------------- Snapshot (optional) -------------
 def _snapshot_save():
-    # disabled: UI should never write p_cache.json
-    return
-
+    try:
+        with _cache_lock:
+            data = {
+                "cache_by_combo": _cache["cache_by_combo"],
+                "last_cycle_end": _cache["last_cycle_end"],
+            }
+        with open(CACHE_SNAPSHOT_PATH,"w") as f: json.dump(data,f)
+        log(f"Saved snapshot to {CACHE_SNAPSHOT_PATH}")
+    except Exception as e:
+        log(f"Snapshot save error: {e}","WARN")
 
 def _snapshot_load():
-    """Load snapshot from disk into in-memory cache and record mtime."""
-    global _snapshot_mtime
     try:
-        with open(CACHE_SNAPSHOT_PATH, "r") as f:
-            data = json.load(f)
-        with _cache_lock:
-            _cache["cache_by_combo"] = data.get("cache_by_combo", {})
-            _cache["last_cycle_end"] = data.get("last_cycle_end")
-        _snapshot_mtime = os.path.getmtime(CACHE_SNAPSHOT_PATH)
-        log(f"Loaded snapshot from {CACHE_SNAPSHOT_PATH} (mtime={_snapshot_mtime})")
+        if os.path.exists(CACHE_SNAPSHOT_PATH):
+            with open(CACHE_SNAPSHOT_PATH,"r") as f: data=json.load(f)
+            with _cache_lock:
+                _cache["cache_by_combo"] = data.get("cache_by_combo",{})
+                _cache["last_cycle_end"] = data.get("last_cycle_end",0.0)
+                # merge stats shallowly
+                for k,v in data.get("_stats",{}).items():
+                    _stats[k] = v
+            log(f"Loaded snapshot from {CACHE_SNAPSHOT_PATH}")
     except Exception as e:
-        log(f"Snapshot load error: {e}", "WARN")
-
+        log(f"Snapshot load error: {e}","WARN")
 
 # -------------- AP-style URL builder ----------------
 def _build_url(state: str, office: str, race_type: str) -> str:
     office_u = (office or "").upper()
-    base = BASE_URL_E if office_u in ("P", "S", "G") else BASE_URL_D
+    base = BASE_URL_E if office_u in ("P", "S", "G", "M") else BASE_URL_D
     rt = interpret_race_type(race_type)
     date = GENERAL_DATE if rt["mode"] == "general" else PRIMARY_DATE
     # now includes &level=ru (or whatever LEVEL_PARAM is)
@@ -754,9 +768,18 @@ def _hub_loop():
     _snapshot_load()
 
     # --- NEW: build the active state list once (skip hardcoded states) ---
-    active_states = [s for s in ALL_STATES if s.upper() not in SKIP_STATES]
+# --- NEW: build the active state list (respect SKIP_STATES) and always include M targets
+    base_active = [s for s in ALL_STATES if s.upper() not in SKIP_STATES]
+    if "M" in OFFICES:
+        # ensure NY is present even if in SKIP_STATES
+        for s in MAYOR_2025_STATES:
+            if s not in base_active:
+                base_active.append(s)
+
+    active_states = base_active
     if not active_states:
-        log("All states are in SKIP_STATES; hub will idle.", "WARN")
+        log("All states are in SKIP_STATES (except M additions); hub may idle.", "WARN")
+
 
     rr_states = itertools.cycle(active_states or ALL_STATES)
 
@@ -776,7 +799,7 @@ def _hub_loop():
                 usps, office, race_type = item
                 try:
                     # (Optional belt-and-suspenders; safe even if already filtered)
-                    if usps.upper() in SKIP_STATES:
+                    if usps.upper() in SKIP_STATES and office.upper() != "M":
                         log(f"Skip {office}:{race_type} {usps} (hardcoded SKIP_STATES)")
                     else:
                         _fetch_state(usps, office, race_type)
@@ -798,200 +821,31 @@ def _hub_loop():
         batch_states = [next(rr_states) for _ in range(STATES_PER_CYCLE)]
         log(f"Cycle start: states={batch_states} combos={combos}")
         for office, race_type in combos:
-            for s in batch_states:
-                # Redundant check is harmless; keeps queue clean even if active_states changes
-                if s.upper() not in SKIP_STATES:
-                    q.put((s, office, race_type))
+            targets = (MAYOR_2025_STATES if office.upper() == "M" else batch_states)
+            for s in targets:
+                if office.upper() != "M" and s.upper() in SKIP_STATES:
+                    continue
+                q.put((s, office, race_type))
         q.join()
         with _cache_lock:
             _cache["last_cycle_end"] = time.time()
+        _snapshot_save()
         log(f"Cycle end. Cached combos: {len(_cache['cache_by_combo'])}")
         time.sleep(DELAY_BETWEEN_CYCLES)
 
-def _snapshot_load_if_stale():
-    """Reload snapshot if the on-disk file is newer than what we've loaded."""
-    global _snapshot_mtime
-    try:
-        mtime = os.path.getmtime(CACHE_SNAPSHOT_PATH)
-    except Exception:
-        return  # file missing or unreadable; keep serving what we have
-    if mtime > _snapshot_mtime:
-        _snapshot_load()
-
-
-# ===== Manual mode (2025: G/A statewide totals; M by NYC borough) =====
-MANUAL_PATH = os.path.join(TEMP_DIR, "manual_entries.json")
-
-def _load_manual():
-    if not os.path.exists(MANUAL_PATH):
-        return {}  # empty until first save
-    try:
-        with open(MANUAL_PATH, "r") as f:
-            return json.load(f) or {}
-    except Exception:
-        return {}
-
-def _save_manual(payload: dict):
-    tmp = MANUAL_PATH + ".tmp"
-    with open(tmp, "w") as f:
-        json.dump(payload or {}, f, indent=2, sort_keys=True)
-    os.replace(tmp, MANUAL_PATH)
-    try:
-        os.chmod(MANUAL_PATH, 0o640)
-    except Exception:
-        pass
-
-@app.route("/manual/entries", methods=["GET"])
-def manual_entries_get():
-    return jsonify(_load_manual())
-
-@app.route("/manual/save", methods=["POST"])
-def manual_entries_save():
-    try:
-        j = request.get_json(force=True) or {}
-        # very small sanity: keep only the combos we care about
-        keep = {}
-        for combo in ("G:G","A:G","M:G"):
-            if combo in j and isinstance(j[combo], dict):
-                keep[combo] = j[combo]
-        _save_manual(keep)
-        return jsonify({"ok": True})
-    except Exception as e:
-        return jsonify({"error": str(e)}), 400
-
-# Shape manual data exactly like /cache/ru so the UI can swap URLs
-@app.route("/manual/ru")
-def manual_ru():
-    office = (request.args.get("office") or "G").upper()
-    race_type = (request.args.get("raceTypeId") or "G").upper()
-    data = _load_manual()
-    combo = f"{office}:{race_type}"
-    payload = data.get(combo) or {}
-
-    rows = []
-    # Governor / AG: 1 synthetic "state total" row per USPS, fips = <statefp>000
-    if office in ("G","A"):
-        for usps, rec in (payload or {}).items():
-            # rec: {"state_percent_in": <number>, "candidates":[{name,party,votes,pct?},...]}
-            # statefp mapping: you already have this in the UI app
-            statefp = USPS_TO_STATEFP.get(usps, "")
-            fips = (statefp or "00") + "000"
-            total = sum(int(c.get("votes") or 0) for c in rec.get("candidates") or [])
-            rows.append({
-                "state": usps,
-                "fips": fips,
-                "name": usps,  # label; UI shows header for state anyway
-                "candidates": rec.get("candidates") or [],
-                "total": total,
-                "updated": int(time.time()),
-                "percent_in": rec.get("state_percent_in"),
-                "state_percent_in": rec.get("state_percent_in"),
-                "race_call_status": "No Decision",
-                "race_called_winner_name": None,
-                "race_called_winner_party": None,
-            })
-            ov = _get_override(f"{office}:{race_type}", usps)  # e.g., "G:G", "A:G"
-            if ov:
-                status = ov.get("status") or "No Decision"
-                win    = ov.get("winner") or {}
-                rows[-1]["race_call_status"] = status
-                rows[-1]["race_called_winner_name"]  = win.get("name")
-                rows[-1]["race_called_winner_party"] = (win.get("party") or "").strip().upper() or None
-        rows.sort(key=lambda r: r["state"])
-        return jsonify({"office": office, "raceTypeId": race_type, "rows": rows})
-
-    # Mayor (NYC boroughs): five county rows keyed by real FIPS
-    
-    # Mayor (NYC boroughs): add a synthetic statewide row (36000) + borough rows
-    if office == "M":
-        ny = (payload or {}).get("NY") or {}
-        rows = []
-        # track city-wide call so we can mirror it onto borough rows
-        city_call_status = "No Decision"
-        city_call_winner_name = None
-        city_call_winner_party = None
-        # 1) NYC City-Wide Total as a statewide row (FIPS 36000)
-        st = ny.get("state_total")
-        if st and isinstance(st, dict):
-            cand = st.get("candidates") or []
-            total = sum(int(c.get("votes") or 0) for c in cand)
-            rows.append({
-                "state": "NY",
-                "fips": "36000",                         # ⬅️ synthetic statewide key
-                "name": "NYC City-Wide Total",
-                "candidates": cand,
-                "total": total,
-                "updated": int(time.time()),
-                "percent_in": st.get("state_percent_in"),    # for county view if you ever show it
-                "state_percent_in": st.get("state_percent_in"),  # ⬅️ used by state %IN bolt
-                "race_call_status": "No Decision",
-                "race_called_winner_name": None,
-                "race_called_winner_party": None,
-            })
-            ov = _get_override(f"{office}:{race_type}", "NY")  # "M:G"
-            if ov:
-                status = ov.get("status") or "No Decision"
-                win    = ov.get("winner") or {}
-                rows[-1]["race_call_status"] = status
-                rows[-1]["race_called_winner_name"]  = win.get("name")
-                rows[-1]["race_called_winner_party"] = (win.get("party") or "").strip().upper() or None
-                # remember to mirror onto borough rows
-                city_call_status       = rows[-1]["race_call_status"]
-                city_call_winner_name  = rows[-1]["race_called_winner_name"]
-                city_call_winner_party = rows[-1]["race_called_winner_party"]
-        # 2) Borough rows (real county FIPS)
-        counties = (ny.get("counties") or {})
-        for fips, rec in counties.items():
-            cand = rec.get("candidates") or []
-            total = sum(int(c.get("votes") or 0) for c in cand)
-            rows.append({
-                "state": "NY",
-                "fips": str(fips).zfill(5),
-                "name": rec.get("name") or fips,
-                "candidates": cand,
-                "total": total,
-                "updated": int(time.time()),
-                "percent_in": rec.get("percent_in"),
-                "state_percent_in": st.get("state_percent_in") if st else None,
-                # mirror the city-wide call so UI sees it from any sampled row
-                "race_call_status": city_call_status,
-                "race_called_winner_name": city_call_winner_name,
-                "race_called_winner_party": city_call_winner_party,
-            })
-
-        rows.sort(key=lambda r: int(r["fips"]))
-        return jsonify({"office": office, "raceTypeId": race_type, "rows": rows})
-
-
-    # otherwise empty
-    return jsonify({"office": office, "raceTypeId": race_type, "rows": []})
-
-
-# ---------------- HTTP (spokes read-only) ----------------
 @app.after_request
 def _no_store(resp):
     resp.headers["Cache-Control"] = "no-store, must-revalidate"
     resp.headers["Pragma"] = "no-cache"
     resp.headers["Expires"] = "0"
-    # add POST for admin endpoints
     resp.headers["Access-Control-Allow-Origin"] = "*"
     resp.headers["Access-Control-Allow-Methods"] = "GET, POST, OPTIONS"
     resp.headers["Access-Control-Allow-Headers"] = "Content-Type, Authorization"
     return resp
 
-
-
-
-
-# (optional) handle preflight quickly
 @app.route("/<path:_any>", methods=["OPTIONS"])
 def _any_options(_any):
     return ("", 204)
-
-
-
-@app.route("/")
-def root(): return send_from_directory(app.static_folder,"index.html")
 
 @app.route("/health")
 def health():
@@ -1000,88 +854,12 @@ def health():
         states_cached = {k: len(v.get("states",{})) for k,v in _cache["cache_by_combo"].items()}
         last_cycle_end = _cache["last_cycle_end"]
     return jsonify({
-        "hub_mode": HUB_MODE,
+        "hub_mode": True,  # or HUB_MODE
         "combos": combos,
         "states_cached_by_combo": states_cached,
         "last_cycle_end_utc": datetime.utcfromtimestamp(last_cycle_end).strftime("%Y-%m-%d %H:%M:%S") if last_cycle_end else None,
     })
 
-@app.route("/cache/p")  # Back-compat: presidential general counties
-def cache_p():
-    # Exactly what your UI expects today (P general)
-    return cache_ru()  # will default to office=P, raceTypeId=G below
-
-@app.route("/cache/ru")
-def cache_ru():
-    office = (request.args.get("office") or "P").upper()
-    race_type = request.args.get("raceTypeId") or "G"
-    combo = _combo_key(office, race_type)
-    _snapshot_load_if_stale()
-    with _cache_lock:
-        bucket = _cache["cache_by_combo"].get(combo, {})
-        if not bucket:
-        # try normalized "raw" (e.g. GEN → G)
-            raw = interpret_race_type(race_type)["raw"]
-            combo_raw = _combo_key(office, raw)
-            bucket = _cache["cache_by_combo"].get(combo_raw, {})
-        states = bucket.get("states", {})
-
-    rows = []
-    if office == "H":
-        for usps, blob in states.items():
-            for did, d in (blob.get("districts") or {}).items():
-                rc  = (d.get("race_call") or {})                  # NEW
-                win = (rc.get("winner") or {})
-                rows.append({
-                    "state": usps,
-                    "district_id": did,
-                    "district_num": d.get("district_num"),
-                    "name": d["name"],
-                    "candidates": d["candidates"],
-                    "total": d["total"],
-                    "updated": blob["updated"],
-                    "percent_in": d.get("percent_in"),
-                    "state_percent_in": blob.get("percent_in"),
-                    # NEW:
-                    "race_call_status": rc.get("status") or "No Decision",
-                    "race_called_winner_name": win.get("name"),
-                    "race_called_winner_party": win.get("party"),
-                    "raceTypeId": race_type,
-                    "office": office,
-                })
-    else:
-        for usps, blob in states.items():
-            rc  = (blob.get("race_call") or {})                   # NEW
-            win = (rc.get("winner") or {})
-            for fips, c in (blob.get("counties") or {}).items():
-                rows.append({
-                    "state": usps,
-                    "fips": fips,
-                    "name": c["name"],
-                    "candidates": c["candidates"],
-                    "total": c["total"],
-                    "updated": blob["updated"],
-                    "percent_in": c.get("percent_in"),
-                    "state_percent_in": blob.get("percent_in"),
-                    # NEW (state-level applies to all counties in state):
-                    "race_call_status": rc.get("status") or "No Decision",
-                    "race_called_winner_name": win.get("name"),
-                    "race_called_winner_party": win.get("party")
-                })
-        # keep your sort, but guard int() safely
-        rows.sort(key=lambda r: (r["state"], int(r.get("fips","0")) if str(r.get("fips","0")).isdigit() else 0))
-
-    return jsonify({"office": office, "raceTypeId": race_type, "rows": rows})
-
-
-@app.route("/log")
-def get_log():
-    try: since = int(request.args.get("since","0"))
-    except ValueError: since = 0
-    with _cache_lock:
-        items = [x for x in list(_cache["log"]) if x["seq"] > since]
-        max_seq = _log_seq
-    return jsonify({"max_seq":max_seq,"items":items})
     
     
 # === Basic Auth decorator for override admin ===
@@ -1192,7 +970,18 @@ def overrides_delete():
         return jsonify({"error": str(e)}), 500
 
 
+if HUB_MODE:
+    try:
+        _start_hub_once()
+    except Exception as e:
+        log(f"Failed to auto-start hub: {e}", "WARN")
+
 if __name__ == "__main__":
     _start_hub_once()
+    # Option A: tiny Flask so you can curl /health
     app.run(host="0.0.0.0", port=int(os.getenv("PORT","9051")))
+    # Option B (no Flask at all): just block forever
+    # import time
+    # while True: time.sleep(3600)
+
 

@@ -6,7 +6,7 @@ set -euo pipefail
 cd "$(dirname "$0")" || exit 1
 
 # Env for rebooter1
-export HUB_PORT=7051
+export HUB_PORT=7052
 export R1_HEALTH_PORT=7050
 export R2_HEALTH_URL="http://127.0.0.1:7049/health"
 # Optional tuning:
