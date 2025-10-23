@@ -1,71 +1,39 @@
 from flask import Flask, jsonify, send_from_directory, request
 from flask_cors import CORS
 import threading, time, requests
-import logging, os
+import logging, json, os
 
-LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO").upper()
-logging.basicConfig(
-    level=getattr(logging, LOG_LEVEL, logging.INFO),
-    format="%(asctime)s %(levelname)s %(message)s"
-)
+logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger("control-panel-all")
-log.propagate = False  # don’t double-log via root
-
-# Silence urllib3 connectionpool info unless explicitly DEBUG
-logging.getLogger("urllib3").setLevel(logging.WARNING)
-logging.getLogger("urllib3.connectionpool").setLevel(logging.WARNING)
-
 
 app = Flask(__name__, static_folder='.', static_url_path='')
 CORS(app)  # allow browser fetches from any origin
 
+HOST = os.getenv("TARGET_HOST", "127.0.0.1")  # set to remote host/ip if monitoring another machine
+CHECK_INTERVAL = float(os.getenv("CHECK_INTERVAL", "1.0"))
 
-
-
-
-# HARD-CODED for running the panel on your laptop
-TARGET_HOST    = "127.0.0.1"   # e.g., "98.87.214.119" (or your server DNS)
-APP_HUB_PORT   = 8080
-PANEL_PORT     = 9048    # the port the panel serves on your laptop
-CHECK_INTERVAL = 1.0     # seconds between health probes
-
-# -----------------------------
-# Hub side (existing)
-# -----------------------------
-
+# All six targets in one place.
+# UI side
+APP_UI_PORT = int(os.getenv("APP_UI_PORT", "9052"))
+UI_REBOOTER1_PORT = int(os.getenv("UI_REBOOTER1_PORT", "9047"))
+UI_REBOOTER2_PORT = int(os.getenv("UI_REBOOTER2_PORT", "9046"))
+# Hub side
+APP_HUB_PORT = int(os.getenv("APP_HUB_PORT", "9051"))
 HUB_REBOOTER1_PORT = int(os.getenv("HUB_REBOOTER1_PORT", "9050"))
 HUB_REBOOTER2_PORT = int(os.getenv("HUB_REBOOTER2_PORT", "9049"))
 
-# -----------------------------
-# Manual Entry App (new)
-# -----------------------------
-APP_UI_MANUAL_PORT  = int(os.getenv("APP_UI_MANUAL_PORT",  "7052"))
-APP_HUB_MANUAL_PORT = int(os.getenv("APP_HUB_MANUAL_PORT", "7051"))
-UI_REBOOT_1_PORT    = int(os.getenv("UI_REBOOT_1_PORT",    "7046"))
-UI_REBOOT_2_PORT    = int(os.getenv("UI_REBOOT_2_PORT",    "7047"))
-HUB_REBOOT_1_PORT   = int(os.getenv("HUB_REBOOT_1_PORT",   "7049"))
-HUB_REBOOT_2_PORT   = int(os.getenv("HUB_REBOOT_2_PORT",   "7050"))
-
 def _urls(port):
-    # Probe both common health endpoints
-    return [f"http://{TARGET_HOST}:{port}/health", f"http://{TARGET_HOST}:{port}/api/health"]
+    return [f"http://{HOST}:{port}/health", f"http://{HOST}:{port}/api/health"]
 
-# Targets to poll. Keys map 1:1 to what the HTML expects.
 TARGETS = {
+    # UI group
+    "app_ui":        {"urls": _urls(APP_UI_PORT),        "alive": False, "healthy": False, "last_change": None, "url": None, "ms": None, "last_url": None},
+    "ui_rebooter1":  {"urls": _urls(UI_REBOOTER1_PORT),  "alive": False, "healthy": False, "last_change": None, "url": None, "ms": None, "last_url": None},
+    "ui_rebooter2":  {"urls": _urls(UI_REBOOTER2_PORT),  "alive": False, "healthy": False, "last_change": None, "url": None, "ms": None, "last_url": None},
     # Hub group
     "app_hub":       {"urls": _urls(APP_HUB_PORT),       "alive": False, "healthy": False, "last_change": None, "url": None, "ms": None, "last_url": None},
     "hub_rebooter1": {"urls": _urls(HUB_REBOOTER1_PORT), "alive": False, "healthy": False, "last_change": None, "url": None, "ms": None, "last_url": None},
     "hub_rebooter2": {"urls": _urls(HUB_REBOOTER2_PORT), "alive": False, "healthy": False, "last_change": None, "url": None, "ms": None, "last_url": None},
-
-    # Manual Entry App group
-    "app_ui_manual":  {"urls": _urls(APP_UI_MANUAL_PORT),  "alive": False, "healthy": False, "last_change": None, "url": None, "ms": None, "last_url": None},
-    "app_hub_manual": {"urls": _urls(APP_HUB_MANUAL_PORT), "alive": False, "healthy": False, "last_change": None, "url": None, "ms": None, "last_url": None},
-
-    # Manual rebooters (UI + Hub)
-    "ui_reboot_1":   {"urls": _urls(UI_REBOOT_1_PORT),   "alive": False, "healthy": False, "last_change": None, "url": None, "ms": None, "last_url": None},
-    "ui_reboot_2":   {"urls": _urls(UI_REBOOT_2_PORT),   "alive": False, "healthy": False, "last_change": None, "url": None, "ms": None, "last_url": None},
-    "hub_reboot_1":  {"urls": _urls(HUB_REBOOT_1_PORT),  "alive": False, "healthy": False, "last_change": None, "url": None, "ms": None, "last_url": None},
-    "hub_reboot_2":  {"urls": _urls(HUB_REBOOT_2_PORT),  "alive": False, "healthy": False, "last_change": None, "url": None, "ms": None, "last_url": None},
 }
 
 _poller_started = False
@@ -82,7 +50,6 @@ def _best_effort_probe(url: str, timeout: float = 1.5):
     except Exception:
         pass
     reachable = 200 <= r.status_code < 300
-    # If JSON includes "healthy", treat that as the truthy indicator; else just use reachability.
     alive = bool(json_healthy) if (json_healthy is not None) else reachable
     return alive, json_healthy, ms, r.status_code
 
@@ -98,8 +65,8 @@ def poll_targets():
             for url in info["urls"]:
                 try:
                     a, h, ms, code = _best_effort_probe(url)
-                    log.debug("probe %-14s %s -> alive=%s healthy=%s http=%s in %.1fms",
-                            name, url, a, h, code, ms)
+                    log.info("probe %-12s %s -> alive=%s healthy=%s http=%s in %.1fms",
+                             name, url, a, h, code, ms)
                     if a or (200 <= code < 300):
                         alive = a
                         healthy = h if h is not None else (True if a else False)
@@ -107,7 +74,7 @@ def poll_targets():
                         last_ok_url = url
                         break
                 except Exception as e:
-                    log.debug("probe %-14s %s -> ERROR: %s", name, url, e)
+                    log.info("probe %-12s %s -> ERROR: %s", name, url, e)
                     continue
 
             prev = info["alive"]
@@ -117,9 +84,8 @@ def poll_targets():
             info["last_url"] = last_ok_url
             if prev != alive:
                 info["last_change"] = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-                log.info("STATE CHANGE %-14s -> %s (url=%s, ms=%s)",
-                         name, "UP" if alive else "DOWN",
-                         last_ok_url, f"{ms_val:.1f}" if ms_val else "—")
+                log.info("STATE CHANGE %-12s -> %s (url=%s, ms=%s)",
+                         name, "UP" if alive else "DOWN", last_ok_url, f"{ms_val:.1f}" if ms_val else "—")
 
         time.sleep(CHECK_INTERVAL)
 
